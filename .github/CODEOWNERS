@@ -1,0 +1,39 @@
+# CODEOWNERS file for media-connector-439
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/squad-product @Armor-test/squad-mobile
+
+# Directory ownership
+/assets/ @Armor-test/squad-reporting @Armor-test/squad-frontend @Armor-test/team-logging
+/shared/ @Armor-test/dept-billing @Armor-test/squad-qa
+/config/ @Armor-test/grp-integration @Armor-test/dept-ui @Armor-test/dept-reporting
+/deploy/ @Armor-test/grp-payments @Armor-test/team-core
+/src/ @Armor-test/squad-cache @Armor-test/squad-payments
+/internal/ @Armor-test/squad-cloud @Armor-test/squad-product @Armor-test/team-notifications
+/api/ @Armor-test/unit-cloud @Armor-test/unit-test @Armor-test/team-research
+/pkg/ @Armor-test/squad-frontend @Armor-test/squad-tooling
+/public/ @Armor-test/grp-payments @Armor-test/squad-product
+/services/ @Armor-test/squad-tooling @Armor-test/squad-ux
+/models/ @Armor-test/dept-reliability @Armor-test/squad-database @Armor-test/unit-test
+/dist/ @Armor-test/dept-release @Armor-test/grp-storage
+/utils/ @Armor-test/squad-cloud @Armor-test/grp-api
+
+# File type ownership
+*.ts @Armor-test/team-research @Armor-test/dept-notifications
+*.ini @Armor-test/squad-database @Armor-test/team-frontend @Armor-test/squad-api
+*.sh @Armor-test/squad-apps @Armor-test/squad-product @Armor-test/grp-integration
+*.java @Armor-test/grp-payments @Armor-test/dept-api
+*.html @Armor-test/dept-ui @Armor-test/dept-notifications @Armor-test/squad-apps
+*.yml @Armor-test/unit-cloud @Armor-test/team-governance @Armor-test/dept-identity
+*.xml @Armor-test/squad-mobile @Armor-test/unit-test @Armor-test/team-frontend
+*.scss @Armor-test/dept-automation @Armor-test/unit-design
+*.properties @Armor-test/squad-cloud @Armor-test/dept-reliability
+*.toml @Armor-test/grp-reporting @Armor-test/squad-qa @Armor-test/dept-notifications
+*.scala @Armor-test/team-security @Armor-test/unit-devops
+*.rb @Armor-test/squad-product @Armor-test/team-logging
+*.proto @Armor-test/squad-ml @Armor-test/squad-product
+*.c @Armor-test/team-security @Armor-test/grp-payments
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
